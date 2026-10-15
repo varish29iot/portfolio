@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found | Varish Shukla - IoT Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .error-container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .error-code {
+      font-family: var(--font-mono);
+      font-size: clamp(4rem, 12vw, 8rem);
+      font-weight: 800;
+      color: var(--cyan-light);
+      line-height: 1;
+      text-shadow: 0 0 30px var(--cyan-glow);
+      margin-bottom: 1rem;
+    }
+    .error-message {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 0.75rem;
+    }
+    .error-detail {
+      font-size: 1rem;
+      color: var(--text-secondary);
+      max-width: 480px;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="error-container">
+    <div class="brand-monogram" style="width: 52px; height: 52px; font-size: 1.25rem; margin-bottom: 2rem;">VS</div>
+    <div class="error-code">404</div>
+    <h1 class="error-message">Telemetry Node Not Found</h1>
+    <p class="error-detail">
+      The requested route or document could not be located in this connected portfolio network.
+    </p>
+    <a href="index.html" class="btn btn-primary">
+      <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+      <span>Return to Main Network</span>
+    </a>
+  </div>
+</body>
+</html>

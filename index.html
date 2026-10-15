@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- SEO Primary Meta Tags -->
+  <title>Varish Shukla | IoT Student & Project Portfolio</title>
+  <meta name="title" content="Varish Shukla | IoT Student & Project Portfolio">
+  <meta name="description" content="Explore Varish Shukla's IoT project portfolio, featuring smart plant watering and water leakage detection concepts. B.Tech student in Internet of Things.">
+  <meta name="keywords" content="Varish Shukla, IoT, Internet of Things, Smart Plant Watering, Water Leakage Detection, IoT Student, Connected Devices, Sensors, Embedded Systems">
+  <meta name="author" content="Varish Shukla">
+  <meta name="theme-color" content="#070B16">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://varishshukla.com/">
+  <meta property="og:title" content="Varish Shukla | IoT Student & Project Portfolio">
+  <meta property="og:description" content="Explore Varish Shukla's IoT project portfolio, featuring smart plant watering and water leakage detection concepts.">
+  <meta property="og:image" content="favicon.svg">
+
+  <!-- Twitter Card -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Varish Shukla | IoT Student & Project Portfolio">
+  <meta property="twitter:description" content="Explore Varish Shukla's IoT project portfolio, featuring smart plant watering and water leakage detection concepts.">
+  <meta property="twitter:image" content="favicon.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Structured Data: Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Varish Shukla",
+    "jobTitle": "IoT Student & Aspiring IoT Developer",
+    "knowsAbout": ["Internet of Things", "Connected Devices", "Sensor Networks", "Smart Automation"],
+    "description": "B.Tech student in Internet of Things exploring practical connected technology projects and smart automation solutions."
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===================================================================
+       A. NAVIGATION BAR
+       =================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-container">
+      <!-- Brand Wordmark & Monogram -->
+      <a href="#hero" class="brand-link" aria-label="Varish Shukla - Home">
+        <div class="brand-monogram">VS</div>
+        <div class="brand-info">
+          <span class="brand-name">VARISH SHUKLA</span>
+          <span class="brand-tag">IoT Development</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="#hero" class="nav-link active" data-nav-target="hero">Home</a></li>
+          <li><a href="#about" class="nav-link" data-nav-target="about">About</a></li>
+          <li><a href="#projects" class="nav-link" data-nav-target="projects">Projects</a></li>
+          <li><a href="#interests" class="nav-link" data-nav-target="interests">Interests</a></li>
+          <li><a href="#skills" class="nav-link" data-nav-target="skills">Toolkit</a></li>
+          <li><a href="#journey" class="nav-link" data-nav-target="journey">Journey</a></li>
+        </ul>
+      </nav>
+
+      <!-- CTA & Mobile Menu Toggle Button -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm">
+          <span>Let's Connect</span>
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <button type="button" class="nav-toggle-btn" id="nav-toggle-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-nav-drawer">
+          <svg class="icon-menu" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          <svg class="icon-close" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation">
+    <ul class="mobile-nav-menu">
+      <li><a href="#hero" class="mobile-nav-link active">Home</a></li>
+      <li><a href="#about" class="mobile-nav-link">About Me</a></li>
+      <li><a href="#projects" class="mobile-nav-link">Projects & Experiments</a></li>
+      <li><a href="#interests" class="mobile-nav-link">Areas of Interest</a></li>
+      <li><a href="#skills" class="mobile-nav-link">Technical Toolkit</a></li>
+      <li><a href="#journey" class="mobile-nav-link">Learning Journey</a></li>
+      <li><a href="#contact" class="mobile-nav-link" style="color:var(--cyan-light); font-weight:700;">Let's Connect</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <!-- ===================================================================
+         B. HERO SECTION
+         =================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Text Content -->
+          <div class="hero-content">
+            <!-- Introductory Eyebrow & Status Pill -->
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span>
+              <span>IoT STUDENT • TECHNOLOGY ENTHUSIAST</span>
+            </div>
+
+            <div class="status-pill">
+              <span class="status-indicator-dot"></span>
+              <span>Open to Freelance Projects &amp; Collaborations</span>
+            </div>
+
+            <p class="hero-title-greeting">Hello, I'm</p>
+            <h1 class="hero-title-name">
+              <span class="hero-title-gradient">Varish Shukla</span>
+            </h1>
+
+            <p class="hero-headline">
+              Exploring Ideas. Building Smarter Connected Solutions.
+            </p>
+
+            <p class="hero-subheadline">
+              I'm Varish Shukla, a B.Tech student in Internet of Things, exploring practical technology projects and innovative connected solutions.
+            </p>
+
+            <!-- Call to Actions -->
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn-primary">
+                <span>Explore My Projects</span>
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <span>Let's Connect</span>
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              </a>
+            </div>
+
+            <!-- Trust / Credibility Badges -->
+            <div class="hero-trust-badges">
+              <div class="trust-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                <span>B.Tech in IoT</span>
+              </div>
+              <div class="trust-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                <span>Practical Sensor Logic</span>
+              </div>
+              <div class="trust-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                <span>Client &amp; PoC Ready</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero IoT Vector Architecture Card -->
+          <div class="hero-visual-col">
+            <div class="hero-visual-card">
+              <div class="visual-topbar">
+                <div class="visual-topbar-title">
+                  <span class="live-pulse"></span>
+                  <span>CONNECTED ARCHITECTURE // LIVE TELEMETRY</span>
+                </div>
+                <span class="badge badge-emerald">Active Mesh</span>
+              </div>
+
+              <!-- High-Fidelity SVG IoT Connected Device Topology -->
+              <svg viewBox="0 0 440 280" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" aria-label="Visual schematic of Varish Shukla's IoT sensor network and microcontroller nodes">
+                <defs>
+                  <linearGradient id="hub-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#0284C7"/>
+                    <stop offset="100%" stop-color="#0F172A"/>
+                  </linearGradient>
+                  <linearGradient id="sensor-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#0D9488"/>
+                    <stop offset="100%" stop-color="#064E3B"/>
+                  </linearGradient>
+                </defs>
+
+                <!-- Background Subtle Grid -->
+                <path d="M20 70 H420 M20 140 H420 M20 210 H420" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+                <path d="M110 20 V260 M220 20 V260 M330 20 V260" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+
+                <!-- Central Gateway Node -->
+                <g transform="translate(220, 140)">
+                  <circle cx="0" cy="0" r="38" fill="url(#hub-grad)" stroke="#38BDF8" stroke-width="2"/>
+                  <circle cx="0" cy="0" r="28" fill="#040711" stroke="#0284C7" stroke-width="1.2"/>
+                  <!-- Antenna symbol -->
+                  <path d="M-6 -8 L0 -14 L6 -8 M-10 -4 L0 -14 L10 -4" fill="none" stroke="#38BDF8" stroke-width="1.5"/>
+                  <text x="0" y="8" fill="#F8FAFC" font-size="8.5" font-family="monospace" text-anchor="middle" font-weight="bold">IoT HUB</text>
+                  <text x="0" y="18" fill="#38BDF8" font-size="7" font-family="monospace" text-anchor="middle">GATEWAY</text>
+                </g>
+
+                <!-- Signal Propagation Waves -->
+                <circle cx="220" cy="140" r="62" fill="none" stroke="rgba(56, 189, 248, 0.25)" stroke-width="1.2" stroke-dasharray="4 4"/>
+                <circle cx="220" cy="140" r="88" fill="none" stroke="rgba(16, 185, 129, 0.15)" stroke-width="1"/>
+
+                <!-- Left Node: Plant Moisture Monitoring Node -->
+                <g transform="translate(85, 75)">
+                  <!-- Connection Bus Line -->
+                  <path d="M35 15 L105 50" stroke="#10B981" stroke-width="1.5" class="animated-flow"/>
+                  <rect x="-45" y="-30" width="90" height="60" rx="8" fill="#09131C" stroke="#10B981" stroke-width="1.5"/>
+                  <circle cx="-25" cy="-12" r="4" fill="#34D399"/>
+                  <text x="-15" y="-9" fill="#F8FAFC" font-size="8.5" font-family="monospace" font-weight="bold">NODE 01</text>
+                  <text x="-40" y="8" fill="#A7F3D0" font-size="7.5" font-family="sans-serif">Plant Soil Probe</text>
+                  <text x="-40" y="20" fill="#38BDF8" font-size="7.5" font-family="monospace">Moisture: 68%</text>
+                </g>
+
+                <!-- Right Node: Water Leakage & Flow Detection Node -->
+                <g transform="translate(355, 75)">
+                  <!-- Connection Bus Line -->
+                  <path d="M-35 15 L-105 50" stroke="#06B6D4" stroke-width="1.5" class="animated-flow"/>
+                  <rect x="-45" y="-30" width="90" height="60" rx="8" fill="#09131C" stroke="#06B6D4" stroke-width="1.5"/>
+                  <circle cx="-25" cy="-12" r="4" fill="#38BDF8"/>
+                  <text x="-15" y="-9" fill="#F8FAFC" font-size="8.5" font-family="monospace" font-weight="bold">NODE 02</text>
+                  <text x="-40" y="8" fill="#BAE6FD" font-size="7.5" font-family="sans-serif">Leak Detection</text>
+                  <text x="-40" y="20" fill="#34D399" font-size="7.5" font-family="monospace">Flow: Secure</text>
+                </g>
+
+                <!-- Bottom Telemetry Node: Automation Controller -->
+                <g transform="translate(220, 240)">
+                  <line x1="0" y1="-62" x2="0" y2="-25" stroke="#38BDF8" stroke-width="1.5" class="animated-flow"/>
+                  <rect x="-60" y="-18" width="120" height="36" rx="6" fill="#0C1527" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+                  <text x="0" y="-1" fill="#F8FAFC" font-size="8.5" font-family="monospace" text-anchor="middle" font-weight="600">AUTOMATION LOGIC</text>
+                  <text x="0" y="11" fill="#38BDF8" font-size="7.5" font-family="monospace" text-anchor="middle">Event-Triggered System</text>
+                </g>
+              </svg>
+
+              <!-- Diagnostic Readout Matrix -->
+              <div class="visual-metrics-grid">
+                <div class="visual-metric-box">
+                  <span class="metric-label">Project 01 Telemetry</span>
+                  <span class="metric-value metric-badge-emerald">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                    Plant Irrigation Node
+                  </span>
+                </div>
+                <div class="visual-metric-box">
+                  <span class="metric-label">Project 02 Telemetry</span>
+                  <span class="metric-value metric-badge-teal">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                    Leak Detection Node
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         C. ABOUT ME SECTION
+         =================================================================== -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>BACKGROUND &amp; PHILOSOPHY</span>
+          </div>
+          <h2 class="section-title">Curiosity Meets Connected Technology</h2>
+          <p class="section-subtitle">Bridging physical sensors with practical problem-solving.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- First-Person Verified Narrative -->
+          <div class="about-text">
+            <p>
+              I'm Varish Shukla, pursuing a B.Tech in Internet of Things (IoT). I'm interested in exploring how connected technologies can help address practical, real-world challenges. My project portfolio highlights concepts around smart plant watering and water leakage detection.
+            </p>
+            <p>
+              As an undergraduate student and aspiring IoT developer, my work revolves around hands-on experimentation: understanding sensor interfaces, microcontroller architectures, logic thresholds, and reliable notification triggers.
+            </p>
+            <p>
+              I am eager to apply this curiosity to client projects, academic collaborations, and practical prototyping needs where connected hardware can automate tasks and protect resources.
+            </p>
+
+            <div style="margin-top: 1rem;">
+              <a href="#contact" class="btn btn-secondary btn-sm">
+                <span>Start a Project Conversation</span>
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Academic & Education Specification Card -->
+          <div class="about-card">
+            <h3 class="card-heading">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--cyan-light)" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              Academic Snapshot
+            </h3>
+
+            <div class="spec-list">
+              <div class="spec-item">
+                <span class="spec-label">Degree</span>
+                <span class="spec-val">Bachelor of Technology (B.Tech)</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Specialization</span>
+                <span class="spec-val" style="color:var(--cyan-light); font-weight:600;">Internet of Things (IoT)</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Institution</span>
+                <span class="spec-val">
+                  <span class="placeholder-pill">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                    [Add institution name]
+                  </span>
+                </span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Graduation Year</span>
+                <span class="spec-val">
+                  <span class="placeholder-pill">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    [Add graduation year]
+                  </span>
+                </span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Academic Standing</span>
+                <span class="spec-val">
+                  <span class="badge badge-emerald">Undergraduate / Fresher</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         D. PROJECTS SECTION
+         =================================================================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>FEATURED IMPLEMENTATIONS</span>
+          </div>
+          <h2 class="section-title">Projects &amp; Experiments</h2>
+          <p class="section-subtitle">Exploring practical applications of connected technology.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- PROJECT 01 CARD: Smart Plant Watering System -->
+          <article class="project-card" id="card-smart-plant">
+            <div class="project-card-image-box" id="project-img-plant" aria-label="Smart Plant Watering Concept Graphic">
+              <!-- Inline SVG populated by app.js -->
+            </div>
+
+            <div class="project-card-body">
+              <div class="project-meta-row">
+                <span class="badge badge-emerald">IoT / Smart Automation</span>
+                <span class="project-action-hint">PROJECT 01</span>
+              </div>
+
+              <h3 class="project-card-title">Smart Plant Watering System</h3>
+              <p class="project-card-desc">
+                A project focused on the idea of smarter plant watering through connected technology and automated watering concepts.
+              </p>
+
+              <div class="project-card-footer">
+                <button type="button" class="btn btn-secondary btn-sm" data-open-project="smart-plant-watering" aria-haspopup="dialog">
+                  <span>View Project Details</span>
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M10 14L21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                </button>
+                <span class="placeholder-pill" title="Hardware details ready to be documented">
+                  Docs Pending
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 02 CARD: Smart Water Leakage Detection System -->
+          <article class="project-card" id="card-water-leakage">
+            <div class="project-card-image-box" id="project-img-water" aria-label="Smart Water Leakage Detection Concept Graphic">
+              <!-- Inline SVG populated by app.js -->
+            </div>
+
+            <div class="project-card-body">
+              <div class="project-meta-row">
+                <span class="badge">IoT / Monitoring</span>
+                <span class="project-action-hint">PROJECT 02</span>
+              </div>
+
+              <h3 class="project-card-title">Smart Water Leakage Detection System</h3>
+              <p class="project-card-desc">
+                A project exploring how connected monitoring technology can help identify water leakage and support more informed water management.
+              </p>
+
+              <div class="project-card-footer">
+                <button type="button" class="btn btn-secondary btn-sm" data-open-project="water-leakage-detection" aria-haspopup="dialog">
+                  <span>View Project Details</span>
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M10 14L21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                </button>
+                <span class="placeholder-pill" title="Flow test telemetry ready to be documented">
+                  Docs Pending
+                </span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         E. WHAT I'M INTERESTED IN
+         =================================================================== -->
+    <section class="section section-alt" id="interests">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>AREAS OF FOCUS</span>
+          </div>
+          <h2 class="section-title">Technology That Solves Practical Problems</h2>
+          <p class="section-subtitle">
+            Exploring how connected hardware and sensor networks can automate tasks, reduce waste, and monitor environments.
+          </p>
+        </div>
+
+        <div class="interests-grid">
+          <!-- Focus 1: Connected Devices -->
+          <div class="interest-card">
+            <div class="interest-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>
+            </div>
+            <h3 class="interest-title">Connected Devices</h3>
+            <span class="interest-subtitle">Physical to Digital Bridges</span>
+            <p class="interest-desc">
+              Exploring how physical devices and connected systems can work together reliably across wireless protocols, serial buses, and microcontrollers.
+            </p>
+          </div>
+
+          <!-- Focus 2: Smart Automation -->
+          <div class="interest-card">
+            <div class="interest-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg>
+            </div>
+            <h3 class="interest-title">Smart Automation</h3>
+            <span class="interest-subtitle">Hands-Free Precision</span>
+            <p class="interest-desc">
+              Exploring ways technology can assist with everyday tasks — investigating automated watering cycles, relay controls, and threshold-based decisions.
+            </p>
+          </div>
+
+          <!-- Focus 3: Monitoring & Detection -->
+          <div class="interest-card">
+            <div class="interest-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <h3 class="interest-title">Monitoring &amp; Detection</h3>
+            <span class="interest-subtitle">Early Warning Systems</span>
+            <p class="interest-desc">
+              Exploring sensor-based approaches to identifying practical issues — such as moisture ingress, fluid loss, and flow irregularities before they escalate.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         F. SKILLS SECTION (Truthful & Configurable)
+         =================================================================== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>TECHNICAL SPECIFICATIONS</span>
+          </div>
+          <h2 class="section-title">My Technical Toolkit</h2>
+          <p class="section-subtitle">Verified tools, languages, and hardware platforms.</p>
+        </div>
+
+        <!-- Tasteful Pending Documentation Notice -->
+        <div class="skills-container-box">
+          <div class="skills-state-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          </div>
+
+          <p class="skills-notice-text">
+            My technical toolkit is being documented. Check back soon for the technologies and tools behind my projects.
+          </p>
+
+          <p class="skills-note-subtext">
+            To maintain complete integrity, arbitrary percentage bars and unverified technologies are excluded until formally published.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         G. LEARNING & EDUCATION JOURNEY
+         =================================================================== -->
+    <section class="section section-alt" id="journey">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>ACADEMIC FOUNDATION</span>
+          </div>
+          <h2 class="section-title">My Learning Journey</h2>
+          <p class="section-subtitle">Academic timeline and technical education.</p>
+        </div>
+
+        <div class="journey-card">
+          <div class="journey-badge-row">
+            <span class="badge badge-emerald">Undergraduate Program</span>
+            <span class="badge">Major Specialization</span>
+          </div>
+
+          <h3 class="journey-title">Bachelor of Technology (B.Tech)</h3>
+          <div class="journey-field">Specialization in Internet of Things (IoT)</div>
+
+          <div class="journey-grid-details">
+            <div class="journey-detail-item">
+              <span class="journey-detail-label">Institution</span>
+              <span class="journey-detail-value">
+                <span class="placeholder-pill">[Add institution name]</span>
+              </span>
+            </div>
+
+            <div class="journey-detail-item">
+              <span class="journey-detail-label">Study Period</span>
+              <span class="journey-detail-value">
+                <span class="placeholder-pill">[Add start year – expected graduation year]</span>
+              </span>
+            </div>
+
+            <div class="journey-detail-item">
+              <span class="journey-detail-label">Relevant Coursework</span>
+              <span class="journey-detail-value">
+                <span class="placeholder-pill">[Add verified coursework]</span>
+              </span>
+            </div>
+
+            <div class="journey-detail-item">
+              <span class="journey-detail-label">Certifications</span>
+              <span class="journey-detail-value">
+                <span class="placeholder-pill">[Add verified certifications, if any]</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         H. CONTACT / FREELANCING SECTION
+         =================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>GET IN TOUCH</span>
+          </div>
+          <h2 class="section-title">Have a Project in Mind?</h2>
+          <p class="section-subtitle">
+            I'm interested in connecting with people who have practical ideas involving connected technology. If you'd like to discuss a project or collaboration, let's start a conversation.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Opportunities & Direct Channels -->
+          <div class="contact-info-col">
+            <div>
+              <h3 style="font-size: 1.15rem; font-weight:700; color:var(--text-primary); margin-bottom: 0.75rem;">
+                Collaboration &amp; Freelance Focus
+              </h3>
+              <p style="font-size: 0.925rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 1.25rem;">
+                Open to assisting startups, hobbyists, and fellow students on practical embedded and IoT tasks:
+              </p>
+
+              <div class="opportunities-list">
+                <div class="opportunity-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>IoT Proof-of-Concept (PoC) Prototyping</span>
+                </div>
+                <div class="opportunity-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Sensor Integration &amp; Microcontroller Logic</span>
+                </div>
+                <div class="opportunity-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Smart Automation Experiments &amp; Relays</span>
+                </div>
+                <div class="opportunity-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Academic Engineering Projects &amp; Hardware Testing</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Channels (With Graceful Placeholders) -->
+            <div class="contact-channels">
+              <div class="channel-card">
+                <div class="channel-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">Direct Email</span>
+                  <span class="channel-value"><span class="placeholder-pill">[Your email address]</span></span>
+                </div>
+              </div>
+
+              <div class="channel-card">
+                <div class="channel-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">GitHub</span>
+                  <span class="channel-value"><span class="placeholder-pill">[Your GitHub URL]</span></span>
+                </div>
+              </div>
+
+              <div class="channel-card">
+                <div class="channel-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">LinkedIn</span>
+                  <span class="channel-value"><span class="placeholder-pill">[Your LinkedIn URL]</span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Contact Form -->
+          <div class="contact-form-container">
+            <h3 style="font-size: 1.25rem; font-weight:700; color:var(--text-primary); margin-bottom: 0.5rem;">
+              Send a Direct Message
+            </h3>
+            <p style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 1.5rem;">
+              Fill in your details below to discuss a project or request assistance.
+            </p>
+
+            <form id="contact-form" class="contact-form" novalidate>
+              <!-- Anti-Spam Honeypot Field -->
+              <input type="text" name="company_website" id="hp_field" class="hp-field" tabindex="-1" autocomplete="off">
+
+              <!-- Name Field -->
+              <div class="form-group">
+                <label for="user_name" class="form-label">
+                  <span>Your Name</span>
+                  <span class="form-label-required">*Required</span>
+                </label>
+                <input type="text" id="user_name" name="name" class="form-control" placeholder="e.g. Alex Morgan" required autocomplete="name">
+                <span class="field-error-msg" id="user_name_error"></span>
+              </div>
+
+              <!-- Email Field -->
+              <div class="form-group">
+                <label for="user_email" class="form-label">
+                  <span>Email Address</span>
+                  <span class="form-label-required">*Required</span>
+                </label>
+                <input type="email" id="user_email" name="email" class="form-control" placeholder="alex@company.com" required autocomplete="email">
+                <span class="field-error-msg" id="user_email_error"></span>
+              </div>
+
+              <!-- Subject Field -->
+              <div class="form-group">
+                <label for="user_subject" class="form-label">
+                  <span>Subject</span>
+                  <span class="form-label-required">*Required</span>
+                </label>
+                <input type="text" id="user_subject" name="subject" class="form-control" placeholder="e.g. IoT Prototype Inquiry" required>
+                <span class="field-error-msg" id="user_subject_error"></span>
+              </div>
+
+              <!-- Message Field -->
+              <div class="form-group">
+                <label for="user_message" class="form-label">
+                  <span>Message</span>
+                  <span class="form-label-required">*Required</span>
+                </label>
+                <textarea id="user_message" name="message" class="form-control" placeholder="Describe your project, timeline, or idea..." required></textarea>
+                <span class="field-error-msg" id="user_message_error"></span>
+              </div>
+
+              <!-- Status Alert Area -->
+              <div id="form-status-alert" class="form-status-alert" role="alert"></div>
+
+              <!-- Submit Button -->
+              <button type="submit" id="form-submit-btn" class="btn btn-primary" style="width: 100%;">
+                <span class="btn-text">Send Message</span>
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+
+              <div style="font-size: 0.75rem; color: var(--text-muted); text-align: center; margin-top: 0.5rem; font-family: var(--font-mono);">
+                Protected by client-side anti-spam • Direct transmission
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================================================================
+       I. FOOTER
+       =================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Summary Column -->
+        <div class="footer-brand-col">
+          <a href="#hero" class="brand-link">
+            <div class="brand-monogram">VS</div>
+            <span class="brand-name">VARISH SHUKLA</span>
+          </a>
+          <p class="footer-bio">
+            IoT student exploring practical connected technology projects, smart automation, and sensor-driven solutions.
+          </p>
+          <div style="font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-mono);">
+            Status: B.Tech Undergraduate
+          </div>
+        </div>
+
+        <!-- Quick Links Navigation -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#hero" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About Me</a></li>
+            <li><a href="#projects" class="footer-link">Projects &amp; Experiments</a></li>
+            <li><a href="#interests" class="footer-link">Areas of Interest</a></li>
+            <li><a href="#skills" class="footer-link">Technical Toolkit</a></li>
+            <li><a href="#journey" class="footer-link">Learning Journey</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Connect Column -->
+        <div>
+          <h4 class="footer-col-title">Connect</h4>
+          <ul class="footer-links-list">
+            <li><span style="color:var(--text-muted); font-size:0.9rem;">Email: <span class="placeholder-pill">[Pending]</span></span></li>
+            <li><span style="color:var(--text-muted); font-size:0.9rem;">GitHub: <span class="placeholder-pill">[Pending]</span></span></li>
+            <li><span style="color:var(--text-muted); font-size:0.9rem;">LinkedIn: <span class="placeholder-pill">[Pending]</span></span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom-row">
+        <div>
+          &copy; <span id="current-year">2026</span> Varish Shukla. All rights reserved. • <span style="color:var(--cyan-light);">Designed with care</span>
+        </div>
+        <button type="button" id="back-to-top" class="back-to-top-btn" aria-label="Scroll back to top">
+          <span>Back to Top</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================================================================
+       PROJECT DETAIL ACCESSIBLE MODAL
+       =================================================================== -->
+  <div class="modal-backdrop" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <!-- Close Button -->
+      <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close project details">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <span class="badge badge-emerald" id="modal-category-badge">IoT / Smart Automation</span>
+        <h2 class="modal-project-title" id="modal-title">Project Title</h2>
+      </div>
+
+      <!-- Project Visual Illustration Banner -->
+      <div class="modal-visual-banner" id="modal-visual-container">
+        <!-- SVG Graphic injected dynamically -->
+      </div>
+
+      <!-- Detailed Specifications Grid -->
+      <div class="modal-specs-grid">
+        <!-- Overview -->
+        <div class="modal-spec-block">
+          <div class="modal-spec-title">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            Project Overview
+          </div>
+          <div class="modal-spec-content" id="modal-overview-text"></div>
+        </div>
+
+        <!-- Problem Statement -->
+        <div class="modal-spec-block">
+          <div class="modal-spec-title">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Problem to Address
+          </div>
+          <div class="modal-spec-content" id="modal-problem-text"></div>
+        </div>
+
+        <!-- How It Works -->
+        <div class="modal-spec-block">
+          <div class="modal-spec-title">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            How It Works
+          </div>
+          <div class="modal-spec-content" id="modal-how-text"></div>
+        </div>
+
+        <!-- Hardware & Software Specifications -->
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div class="modal-spec-block">
+            <div class="modal-spec-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/></svg>
+              Hardware Used
+            </div>
+            <div class="modal-spec-content" id="modal-hardware-text"></div>
+          </div>
+
+          <div class="modal-spec-block">
+            <div class="modal-spec-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+              Software &amp; Technologies
+            </div>
+            <div class="modal-spec-content" id="modal-software-text"></div>
+          </div>
+        </div>
+
+        <!-- My Contribution -->
+        <div class="modal-spec-block">
+          <div class="modal-spec-title">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            My Contribution
+          </div>
+          <div class="modal-spec-content" id="modal-contribution-text"></div>
+        </div>
+
+        <!-- Media / Demonstration -->
+        <div class="modal-spec-block">
+          <div class="modal-spec-title">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+            Demonstration Media
+          </div>
+          <div class="modal-spec-content" id="modal-media-text"></div>
+        </div>
+      </div>
+
+      <!-- Action Buttons Row -->
+      <div class="modal-actions-row">
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" id="modal-repo-btn">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          <span>View GitHub Repository</span>
+        </a>
+
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" id="modal-demo-btn">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          <span>Open Live Demo</span>
+        </a>
+
+        <span class="placeholder-pill" id="modal-links-pending-notice" style="display:none;">
+          Repository &amp; Demo links will appear when URLs are configured in config.js
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
