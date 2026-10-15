@@ -40,8 +40,8 @@ const PORTFOLIO_CONFIG = {
       phone: "",                     // Optional: enter phone number if desired
       isPhoneConfigured: false,
 
-      githubUrl: "[Your GitHub URL]", // e.g. "https://github.com/varishshukla"
-      isGithubConfigured: false,     // Set to true once you enter your GitHub URL
+      githubUrl: "https://github.com/varish29iot",
+      isGithubConfigured: true,
 
       linkedinUrl: "[Your LinkedIn URL]", // e.g. "https://linkedin.com/in/varishshukla"
       isLinkedinConfigured: false,   // Set to true once you enter your LinkedIn URL
